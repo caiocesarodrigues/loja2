@@ -52,6 +52,7 @@ body {
 @media (max-width: 768px)
 .product-modal .modal-dialog {
     width: 93%;
+    margin-top: -133px;
 }
 
 @media (max-width: 480px)
