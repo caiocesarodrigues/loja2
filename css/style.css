@@ -1,3 +1,4 @@
+
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -46,24 +47,6 @@ body {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
-}
-
-
-@media (max-width: 768px)
-.product-modal .modal-dialog {
-    width: 93%;
-    margin-top: -133px;
-}
-
-@media (max-width: 480px)
-.product-modal .modal-dialog {
-    width: 100%;
-}
-.product-modal .modal-dialog {
-    width: 796px;
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
 }
 
 p {
@@ -1073,7 +1056,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .product-modal .modal-dialog {
-  width: 900px;
+  width: 80%;
   display: inline-block;
   text-align: left;
   vertical-align: middle;
@@ -1081,13 +1064,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 @media (max-width: 480px) {
   .product-modal .modal-dialog {
-    width: 100%;
+    width: 93%;
   }
 }
 
 @media (max-width: 768px) {
   .product-modal .modal-dialog {
-    width: 100%;
+    width: 94%;
   }
 }
 
